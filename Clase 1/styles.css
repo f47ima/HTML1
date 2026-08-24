@@ -1,0 +1,37 @@
+/* Vamos a poner esta fuente para todos los elementos visibles de la pagina */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    background-color: beige;
+    
+}
+
+h1 {
+    color: wheat;
+    background-color: orange;
+    display: flex; /*hace que el h1 acomode a sus hijos (la imagen y el texto) en fila en vez de uno arriba del otro.*/
+    align-items: center; /*los centra verticalmente entre sí*/
+    padding: 10px;
+    gap: 10px;
+}
+
+
+div{
+    padding: 30px;
+    margin-right: 300px;
+}
+
+h2{
+    color: chocolate;
+}
+
+h3{color: chocolate;}
+
+p{
+    color:darkred;
+}
+
+ol{color:darkred;
+
+}
+ul{color:darkred;}

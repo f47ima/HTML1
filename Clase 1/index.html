@@ -1,0 +1,87 @@
+<!-- PRACTICA SUGERIDA
+
+Crear pagina de recetas con todos estos elementos
+Repasar todos los elementos HTML hasta HTML List en 
+https://www.w3schools.com/html/html_lists.asp
+-->
+
+<!DOCTYPE html>
+<!-- Etiqueta raiz <html> -->
+<html>
+<!-- Informacion NO visible (metadata, links, etc) -->
+
+<head>
+    <!-- Que set de caracteres usamos en la pagina -->
+    <meta charset="UTF-8">
+
+    <!-- Instruccion para ajustar y estirar el contenido a distintas pantallas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titulo de nuestra pagina web -->
+    <title>Cookindom</title>
+
+    <style>
+        /* Vamos a poner esta fuente para todos los elementos visibles de la pagina */
+        /*
+            body {
+                font-family: monospace;
+            }
+            */
+    </style>
+
+    <!-- link -> Enlace a una hoja de estilos con el codigo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Informacion visible (cuerpo de la pagina) -->
+
+<body>
+    <!-- h1 se refiere a encabezado (heading) tamaño 1 -->
+    <h1>
+        <img width="50" src="icon.png" alt="cookindom">
+        Cookindom
+    </h1>
+    <div>
+
+        <img width="300"
+            src="https://www.receta-vegetariana.com/base/stock/Recipe/gelatina-de-frutas/gelatina-de-frutas_web.jpg.webp"
+            alt="Gelatina con frutas">
+
+        <h2>Gelatina con frutas</h2>
+        <!-- a viene de "anchor" o ancla (enlace) 
+            el atributo href se refiere al enlace al que nos va a llevar
+            el atributo target se refiere a donde se va a abrir ese enlace
+        -->
+    
+        <a href="https://www.youtube.com/watch?v=9EcjWd-O4jI" target="_blank">
+            Pump it up
+        </a>
+
+        <p>
+        Antes de comenzar es importante que sepas que algunas frutas como kiwi, piña, papaya, melón o higos tienen una enzima llamada bromelina que anula el poder de cuajar de la gelatina. Si se cuecen o saltean a más de 70 grados desaparece el problema, así que si quieres usarlas tendrás que darles un ligero hervor o saltearlas al fuego. No te recomiendo usar melón o higos porque pueden perder textura.
+        </p>
+
+        <h3>Ingredientes</h3>
+        <ul>
+            <li>1 paquete de gelatina de frutas.</li>
+            <li>Fruta fresca troceada. Puedes usar duraznos , peras, cerezas, frambuesas, fresas… Las frutas con piel es mejor pelarlas porque mejora la textura al comerlas.</li>
+            <li>Zumo de limón.</li>
+        </ul>
+
+        <!-- Titulo intermedio -->
+        <h3>Preparacion</h3>
+        <!-- Lista ordenada -->
+        <ol> <!-- Contenedor de elemntos lista, ul significa unordered list-->
+            <li>Preparamos la gelatina siguiendo las instrucciones del envase. Lo normal es diluirla en agua muy caliente, un vaso de agua recién hervida, y añadir la misma cantidad de agua fría. Mezclamos todo muy bien (puede ser en batidora) y dejamos templar.</li>
+            <li>Por otro lado pelamos y troceamos la fruta en trozos regulares y la disponemos en el molde donde la vamos a presentar. Hay que aprovechar el posible jugo que suelte la fruta. Rociamos con sumo de limón para que la fruta no se oxide.</li>
+            <li>Añadimos por encima la gelatina templada, que ya habrá cogido algo de cuerpo.</li>
+            <li>Dejamos reposar la gelatina de frutas en la nevera un mínimo de 3-4 horas para que cuaje del todo hasta servir.</li>
+        </ol>
+
+        <hr>
+
+    </div>
+
+</body>
+
+</html>
